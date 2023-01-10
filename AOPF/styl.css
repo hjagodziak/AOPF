@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.menu {
+	background-color: blue;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	min-height: 250px;
+	font-size: 125%;
+}
+.menu p {
+	margin: 10px;
+}
+.zawar {
+	background-color: purple;
+	width: 85%;
+	margin-left: 10%;
+	margin-right: 5%;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	height: auto;
+	text-align: left;
+	padding: 15px;
+	color: yellow;
+}
+select {
+	background-color: green;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	color: yellow;
+	font-size: 110%;
+}
+input[type="submit"] {
+	background-color: purple;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	color: yellow;
+	font-size: 110%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th {
+	padding: 5px;
+	margin: 0;
+	border: 1px solid green;
+	background-color: lightgreen;
+	text-align: center;
+	color: black;
+}
+td {
+	padding: 5px;
+	margin: 0;
+	border: 1px solid lightgreen;
+	background-color: #008000;
+	text-align: center;
+	color: white;
+}
+tr:hover td {
+	background-color: #00a000;
+}
+#wyb {
+	padding: 5px;
+	font-size: 50%;
+	letter-spacing: 3px;
+}
+#pol {
+	margin: 5px;
+	font-size: 50%;
+	letter-spacing: 3px;
+}
